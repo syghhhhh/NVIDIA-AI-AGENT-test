@@ -33,7 +33,7 @@ docker安装 具体的库的版本在txt文件中
 
 #### 代码实现
 
-通过特征词和向量的混合评价找到超过阈值的相关存储块, 重排之后送入大模型生成回复
+通过特征词和向量的混合评价找到超过阈值的相关存储块, 使用BAAI/bge-reranker-v2-m3重排之后送入大模型生成回复
 ![image](https://github.com/user-attachments/assets/f088a673-d0b0-4291-a77b-d11b35e33efb)
 
 ### 项目成果与展示
